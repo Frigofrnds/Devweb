@@ -1,0 +1,79 @@
+*{
+    margin: 0 ;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: white;
+    
+}
+html body{
+    height: 100vh
+}
+
+.pagina{
+    background-image: url("./img/download.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.cabeca{
+    height: 45px;
+    text-align: right;
+    height: 10%;
+}
+.cabeca2 a{
+    text-justify: auto;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 10px;
+
+
+}
+.corpo{
+
+    height: 85%;
+    position: relative;
+}
+.corpo img{
+display: flex;
+margin-left: 40%;
+margin-right: 50%;
+margin-top: 10%;
+margin-bottom: 15px;
+justify-content: center;
+align-items: center;
+}
+.corpo form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+.corpo .principal{
+
+    padding-right:250px;
+    border-radius: 90px;
+    height: 25px;
+    color: black;
+
+}
+.corpo .secundario{
+    margin-left: -74px;
+    background-color: rgb(102, 33, 167);
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px;
+    height: 21px;
+    font-size: 16px;
+}
+.pe{
+    margin-left: 30px;
+    height: 10%;
+}
